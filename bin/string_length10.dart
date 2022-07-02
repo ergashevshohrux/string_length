@@ -8,5 +8,10 @@
 */
 
 void main() {
+  print(func("codeschool"));
   // write your code here
+}
+String func(s){
+  String x = s.toUpperCase();
+  return x;
 }
