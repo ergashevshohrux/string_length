@@ -5,7 +5,17 @@
         s: string
     Returns:
         string
-*/
+*/ 
+
+
+
+String func(s){
+  int j = s.length;
+  String h = '*'*j;
+  return h;
+}
 void main() {
+  print(func("shohrux"));
   // write your code here
 }
+
