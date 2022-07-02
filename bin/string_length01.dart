@@ -5,7 +5,12 @@
         a: string
     Returns:
         length of string */
+        int func(text) {
+         return text.length;
+ 
+         }
 
 void main() {
   // write your code here
+  print(func('alik'));
 }
