@@ -7,6 +7,16 @@
     Returns:
         string
 */
+
+String func(s1, s2) {
+  if (s1.length % 2 == 0 || s2.length % 2 == 0) {
+    return s2;
+  } else
+    return s1;
+}
+
 void main() {
+  
   // write your code here
+  print(func('kkk', 'bbbb'));
 }
